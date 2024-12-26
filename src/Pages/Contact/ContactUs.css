@@ -1,0 +1,48 @@
+.contactBox {
+  width: 300px; 
+     height: auto;
+     margin: 25px auto; 
+    text-align: center;
+    padding: 10px;
+}
+
+.contact-h2 {
+   font-family: 'Crimson Text', serif;
+   margin: 0px;
+}
+
+.contact-text {
+   font-family: 'Work Sans', sans-serif;
+   font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .contactBox {
+        width: 90%; 
+        padding: 15px; 
+    }
+
+    .contact-h2 {
+        font-size: 20px; 
+    }
+
+    .contact-text {
+        font-size: 13px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .contactBox {
+        width: 95%; 
+        padding: 20px; 
+        border-width: 1.5px; 
+    }
+
+    .contact-h2 {
+        font-size: 18px; 
+    }
+
+    .contact-text {
+        font-size: 12px; 
+    }
+}

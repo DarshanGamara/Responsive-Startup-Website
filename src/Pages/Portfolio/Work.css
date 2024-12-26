@@ -1,0 +1,67 @@
+.workBox {
+     width: 350px; 
+     height: auto;
+     margin: 25px auto; 
+     text-align: center;
+     padding: 10px;
+}
+
+.work {
+  margin-top: 0px;
+  color: #74c69d;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.work-h2 {
+   margin-top: 0px;
+   font-size: 18px;
+   font-family: 'Crimson Text', serif;
+}
+
+.work-text {
+  margin-top: 0px;
+  font-family: 'Work Sans', sans-serif; 
+  font-size: 14px;       
+}
+
+@media (max-width: 768px) {
+     .workBox {
+        width: 80%;
+        padding: 15px;
+     }
+
+     .work {
+         font-size: 12px;
+     }
+
+     .work-h2 {
+        font-size: 20px;
+     }
+
+     .work-text {
+        font-size: 14px;
+     }
+}
+
+@media (max-width: 480px) {
+     .workBox {
+        width: 90%;
+        padding: 20px;
+     }
+
+     .work {   
+        font-size: 14px;
+     }
+
+     .work-h2 {
+        font-size: 22px;
+     }
+
+     .work-text {
+        font-size: 16px;
+     }
+}
+

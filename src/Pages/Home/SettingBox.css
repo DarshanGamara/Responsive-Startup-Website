@@ -1,0 +1,126 @@
+.setting-box {
+     display: flex;
+     width: 85%;
+     height: auto;
+     margin: 50px auto;     
+}
+
+.setting-text {
+     width: 30%;
+    height: 30%;
+    margin: 100px auto 100px auto;
+}
+
+.setting-pic {
+      width: 50%;
+      height: 40%;
+      margin-left: 220px;
+      margin-top: 50px;
+}
+
+.setting-img {
+      width: 70%;
+      height: 40%;
+}
+
+.setting-h2 {
+  margin: 0;
+    font-family: 'Crimson Text', serif;
+}
+
+.setting-p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+}
+
+.setting-btn {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;   
+    font-size: 12px;
+    width: 140px;
+   
+    font-family: 'Work Sans', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .setting-box {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .setting-text {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .setting-pic {
+    width: 100%;
+    margin: 20px auto;
+    height: auto;
+  }
+
+  .setting-img {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .setting-btn {
+    font-size: 14px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    width: auto;
+  }
+
+  .setting-p {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .setting-box {
+    flex-direction: column;
+    width: 95%;
+    margin: 20px auto;
+  }
+
+  .setting-text {
+    width: 100%;
+    margin: 10px auto;
+    height: auto;
+    text-align: center;
+  }
+
+  .setting-pic {
+    width: 100%;
+    margin: 10px auto;
+    height: auto;
+  }
+
+  .setting-img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .setting-btn {
+    font-size: 12px;
+    padding: 8px 16px;
+    margin: 10px auto;
+    width: auto;
+  }
+
+  .setting-p {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+
+
